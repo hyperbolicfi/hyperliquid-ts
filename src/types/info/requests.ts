@@ -289,6 +289,7 @@ export interface MetaRequest {
 export interface MetaAndAssetCtxsRequest {
     /** Type of request. */
     type: "metaAndAssetCtxs";
+    dex?: string;
 }
 
 /**
